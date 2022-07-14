@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sampleproject/widgets/drawer.dart';
 
 class Homepage extends StatelessWidget {
   //const Homepage({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class Homepage extends StatelessWidget {
           //image: AssetImage('assets/images/Login_page.png'),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
